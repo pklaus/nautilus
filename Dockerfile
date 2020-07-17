@@ -54,3 +54,5 @@ RUN pacman --noconfirm -Sy fish bash-completion \
 COPY --from=builder /target /
 
 USER nautilus
+
+CMD /bin/fish
